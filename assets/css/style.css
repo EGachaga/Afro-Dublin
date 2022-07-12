@@ -36,3 +36,12 @@ float: right;
 list-style-type: none;
 margin-right: 30px;
 }
+
+/* Dublin image*/
+
+#dublin-image {
+    height: 400px;
+    width: 100%;
+    background: url('../images/dublin-image.jpg');
+
+}
