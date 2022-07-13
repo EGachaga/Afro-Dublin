@@ -37,11 +37,16 @@ list-style-type: none;
 margin-right: 30px;
 }
 
-/* Dublin image*/
+/*  Hero image*/
 
-#dublin-image {
-    height: 400px;
+#hero-outer{
+    height: 600px;
     width: 100%;
-    background: url('../images/dublin-image.jpg');
+    overflow: hidden;
+}
 
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/dublin-image.jpg') no-repeat center center;
 }
