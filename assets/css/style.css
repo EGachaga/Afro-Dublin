@@ -46,7 +46,7 @@ margin-right: 30px;
     position: relative;
 }
 
-#cover-text, cover-text h2, cover-text p {
+#cover-text1, cover-text1 h2, {
 color: #fff;
 }
 
@@ -56,7 +56,7 @@ color: #fff;
     background: url('../images/dublin-image.jpg') no-repeat center center;
 }
 
-#cover-text{
+#cover-text1{
     font-size: 30%;
     font-family:  nunito, sans-serif;
     text-transform: uppercase;
@@ -73,4 +73,12 @@ color: #fff;
     right: 150px;
 
     position: absolute;
+}
+
+/* About section */
+.about {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
 }
