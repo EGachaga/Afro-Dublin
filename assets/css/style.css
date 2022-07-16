@@ -11,11 +11,11 @@ body{
     color: #3a3a3a;
 }
 
-/* headings and logo */
+/* Headings and Logo */
 
 h1, h2 {
 font-family: nunito, sans-serif;
-text-transform: uppercase;
+text-transform: capitalize;
 letter-spacing: 4px;
 color: #252525;
 }
@@ -36,6 +36,7 @@ color: #252525;
 float: right;
 list-style-type: none;
 margin-right: 30px;
+margin-top: 30px;
 }
 
 /*  Hero image and cover text*/
@@ -47,7 +48,7 @@ margin-right: 30px;
     position: relative;
 }
 
-#cover-text1, cover-text1 h2, {
+.cover-text1, cover-text1 h2, {
 color: #fff;
 }
 
@@ -57,30 +58,50 @@ color: #fff;
     background: url('../images/dublin-image.jpg') no-repeat center center;
 }
 
-#cover-text1{
+.cover-text1{
     font-size: 30%;
     font-family:  nunito, sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 4px;
 
-    width: 300px;
+    width: 250px;
     height: 200px;
 
     padding-top: 40px;
-    padding-right: 10px;
+    padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, .7);
-    bottom: 30px;
-    right: 150px;
+    background-color: #FFD700;
+    bottom: 218px;
+    left: 300px;
 
+    position: relative;
+}
+
+.cover-text1::after
+{
     position: absolute;
+    width: 30px;
+    height: 30px;;
+    border-top: 0px solid #FFD700;
+    border-right: 2px solid #FFD700;
+    border-bottom: 2px solid #FFD700;
+    border-left: opx solid #FFD700;
+    top:100%;
+    left: 50%;
+    margin-left: -25px;
+    content: "";
+    transform: rotate(45deg);
+    margin-top: -25px;
+    background: #FFD700;
 }
 
 /* About section */
+
 .about {
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
+    margin: 20px;
     text-align: center;
 }
 
