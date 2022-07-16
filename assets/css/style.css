@@ -48,8 +48,16 @@ margin-top: 30px;
     position: relative;
 }
 
-.cover-text1, cover-text1 h2, {
+.cover-text1, h2{
 color: #fff;
+font-size: 23px;
+text-align: center;
+}
+
+.cover-text1, p{
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
 }
 
 #hero-image {
@@ -64,14 +72,14 @@ color: #fff;
     text-transform: capitalize;
     letter-spacing: 4px;
 
-    width: 250px;
+    width: 350px;
     height: 200px;
 
-    padding-top: 40px;
+    padding-top: 50px;
     padding-left: 10px;
 
     background-color: #FFD700;
-    bottom: 218px;
+    bottom: 260px;
     left: 300px;
 
     position: relative;
