@@ -48,13 +48,13 @@ margin-top: 30px;
     position: relative;
 }
 
-.cover-text1, h2{
+.cover-text1 > h2, .cover-text2 > h2, .cover-text3 > h2{
 color: #fff;
 font-size: 23px;
 text-align: center;
 }
 
-.cover-text1, p{
+.cover-text1 > p, .cover-text2 > p, .cover-text3 > p{
     color: #fff;
     font-size: 13px;
     text-align: center;
@@ -65,6 +65,7 @@ text-align: center;
     height: 600px;
     width: 100%;
     background: url('../images/dublin-image.jpg') no-repeat center center;
+   
 }
 
 .cover-text1, .cover-text2, .cover-text3{
@@ -73,16 +74,16 @@ text-align: center;
     text-transform: capitalize;
     letter-spacing: 4px;
 
-    width: 350px;
+    width: 360px;
     height: 200px;
     margin: 25px;
     float: left;
-
+   
     padding-top: 50px;
     padding-left: 10px;
 
     background-color: #FFD700;
-    bottom: 260px;
+    bottom: 245px;
     left: 300px;
 
     position: relative;
@@ -108,18 +109,29 @@ text-align: center;
 
 /* About section */
 
-.about {
-    position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 20px;
+#about {
+  height: 700px;  
+}
+#about-heading{
     text-align: center;
+    margin: 10px;
+}
+
+hr {
+    border-top: 3px solid #eee;
+    width: 100%;
+    margin: 5px 5px;
+}
+
+#about, p, h2 {
+    color: #00093c;
+    
 }
 
 /* Footer */
 
 footer {
-    height: 400px;
+    height: 200px;
     background: linear-gradient(to right, #00093c, #2d0b00);
     color: #fff;
 
