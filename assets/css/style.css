@@ -117,6 +117,7 @@ text-align: center;
     text-align: center;
     width: 50%;
     margin: 0 auto;
+    padding: 30px 0 0 15px;
   
 }
 
@@ -134,7 +135,8 @@ hr {
 /* Footer */
 
 footer {
-    height: 200px;
+    height: 150px;
+    width: 100%;
     background: linear-gradient(to right, #00093c, #2d0b00);
     color: #fff;
 
@@ -162,21 +164,19 @@ footer {
     margin: 0 8px;  
 }
 
-footer .menu {
-    margin-top: 0;
-    padding: 0;
-    list-style: none;
+#bottom-menu {
     text-align: center;
-    margin-bottom: 0;
-    line-height: 1.6;
-    padding: 0 15px;
-    display: inline-block;
+    font-size: 15px;
+    color:#fff;
+    width: 50%;
+    margin: 0 auto;
 }
 
 #copyright {
     text-align: center;
     margin-top: 15px;
     font-size: 13px;
+    color: #fff;
 }
 
 
