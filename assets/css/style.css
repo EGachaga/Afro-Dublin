@@ -58,6 +58,7 @@ text-align: center;
     color: #fff;
     font-size: 13px;
     text-align: center;
+    text-transform: none;
 }
 
 #hero-image {
@@ -66,7 +67,7 @@ text-align: center;
     background: url('../images/dublin-image.jpg') no-repeat center center;
 }
 
-.cover-text1{
+.cover-text1, .cover-text2, .cover-text3{
     font-size: 30%;
     font-family:  nunito, sans-serif;
     text-transform: capitalize;
@@ -74,6 +75,8 @@ text-align: center;
 
     width: 350px;
     height: 200px;
+    margin: 25px;
+    float: left;
 
     padding-top: 50px;
     padding-left: 10px;
@@ -85,7 +88,7 @@ text-align: center;
     position: relative;
 }
 
-.cover-text1::after
+.cover-text1::after, .cover-text2::after, .cover-text3::after
 {
     position: absolute;
     width: 30px;
