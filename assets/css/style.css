@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:wght@200&family=Roboto:wght@300&display=swap");
 *{
     margin: 0;
     padding: 0;
@@ -13,23 +13,23 @@ body{
 
 /* Headings and Logo */
 
-h1, h2 {
-font-family: nunito, sans-serif;
-text-transform: capitalize;
-letter-spacing: 4px;
-color: #252525;
-}
-
 #logo {
+    font-family: nunito, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    color: #252525;
     float: left;
-    font-size: 280%;
+    font-size: 230%;
+    font-weight: bold;
+    padding: 5px;
 }
 
-/* navigation links */
+/* Navigation Links */
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    font-weight: bold;
 }
 
 #menu li {
@@ -39,7 +39,16 @@ margin-right: 30px;
 margin-top: 30px;
 }
 
-/*  Hero image and cover text*/
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/*  Hero Image and Cover Text*/
 
 #hero-outer{
     height: 600px;
@@ -50,8 +59,10 @@ margin-top: 30px;
 
 .cover-text1 > h2, .cover-text2 > h2, .cover-text3 > h2{
 color: #fff;
+font-family: lobster, sans-serif;
 font-size: 23px;
 text-align: center;
+font-weight: normal;
 }
 
 .cover-text1 > p, .cover-text2 > p, .cover-text3 > p{
@@ -68,6 +79,19 @@ text-align: center;
    
 }
 
+.cover-text1 {
+    background-color: #a52a2a;
+}
+
+.cover-text2 {
+    background-color: #ffa500;
+}
+
+.cover-text3 { 
+    background-color: #006400;
+
+}
+
 .cover-text1, .cover-text2, .cover-text3{
     font-size: 30%;
     font-family:  nunito, sans-serif;
@@ -75,15 +99,14 @@ text-align: center;
     letter-spacing: 4px;
 
     width: 360px;
-    height: 200px;
+    height: 215px;
     margin: 25px;
     float: left;
    
     padding-top: 50px;
     padding-left: 10px;
 
-    background-color: #FFD700;
-    bottom: 245px;
+    bottom: 265px;
     left: 300px;
 
     position: relative;
@@ -94,19 +117,38 @@ text-align: center;
     position: absolute;
     width: 30px;
     height: 30px;;
-    border-top: 0px solid #FFD700;
-    border-right: 2px solid #FFD700;
-    border-bottom: 2px solid #FFD700;
-    border-left: opx solid #FFD700;
     top:100%;
     left: 50%;
     margin-left: -25px;
     content: "";
     transform: rotate(45deg);
     margin-top: -25px;
-    background: #FFD700;
 }
 
+.cover-text1::after {
+    border-top: 0px solid #a52a2a;
+    border-right: 2px solid #a52a2a;
+    border-bottom: 2px solid #a52a2a;
+    border-left: opx solid #a52a2a;
+    background: #a52a2a;
+
+}
+
+.cover-text2::after {
+    border-top: 0px solid #ffa500;
+    border-right: 2px solid #ffa500;
+    border-bottom: 2px solid #ffa500;
+    border-left: opx solid #ffa500;
+    background: #ffa500;
+}
+
+.cover-text3::after {
+    border-top: 0px solid #006400;
+    border-right: 2px solid #006400;
+    border-bottom: 2px solid #006400;
+    border-left: opx solid #006400;
+    background: #006400;  
+}
 /* About section */
 
 #about {
