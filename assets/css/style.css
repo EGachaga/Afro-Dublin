@@ -119,6 +119,7 @@ font-weight: normal;
     flex-wrap: wrap;
     justify-content: center;
     flex: 1;
+    flex-direction: #;
 }
 .cover-text1::after, .cover-text2::after, .cover-text3::after
 {
@@ -157,16 +158,29 @@ font-weight: normal;
     border-left: opx solid #006400;
     background: #006400;  
 }
-/* About section */
 
-#about {
-  height: 700px;
-
+@media (max-width: 750px) {
+    .cover-text {
+        flex-direction: #;
+    }
 }
 
+/* about section */
+#about {
+  height: 700px;
+  width: 100%;
+
+}
 #about, h2 {
     font-family: lobster, sans-serif;
     color: #a52a2a;
+    font-size: 35px;
+}
+#about, h5 {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin: 1rem 0 0.3rem;
 }
 #about-heading{
     text-align: center;
@@ -185,6 +199,8 @@ hr {
     color: #00093c;
     font-family:  nunito, sans-serif;
     margin: 10px;
+    font-size: 13px;
+    margin: 0 0 1em;
 }
 
 /* Footer */
