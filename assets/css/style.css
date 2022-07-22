@@ -102,20 +102,24 @@ font-weight: normal;
     text-transform: capitalize;
     letter-spacing: 4px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
     width: 360px;
     height: 215px;
-    margin: 25px;
-    float: left;
-   
-    padding-top: 50px;
-    padding-left: 10px;
-
     bottom: 265px;
-    left: 20px;
-
+    margin-top: 25px;
     position: relative;
 }
-
+.cover-text {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+}
 .cover-text1::after, .cover-text2::after, .cover-text3::after
 {
     position: absolute;
@@ -192,11 +196,15 @@ footer {
     color: #fff;
 }
 
-.social-networks {
-    text-align:center;
-    padding-bottom: 25px;   
+#social-links {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
+#social-links, li {
+    flex-shrink: 1;
 
+}
 .social-networks >li {
     display: inline;
 }
