@@ -272,8 +272,18 @@ footer {
     position: relative;
     padding: 30px 10px;
     margin: 20px 15px;
-
     display: flex;
+    flex-direction: column;
+    box-shadow: 0.5px 10px #e6e6e6;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+}
+.restaurant1 .card .image-box{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -60px;
+    left: 20px;
 }
 
 
