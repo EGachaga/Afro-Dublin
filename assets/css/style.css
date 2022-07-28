@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&family=Quattrocento+Sans:wght@700&display=swap");
+@import url(href="https://fonts.googleapis.com/css2?family=Faster+One&family=Lobster&family=Oswald:wght@300&family=Quattrocento+Sans:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet");
 
 /* general setting */
 *{
@@ -15,9 +15,12 @@ body {
 }
 
 /* headings and logo */
-.main-header {
+header {
     width: 100%;
-    height: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e4ddfa;
 }
 #logo {
     font-family: quattrocento+sans, sans-serif;
@@ -79,7 +82,7 @@ font-weight: normal;
 #hero-image {
     height: 700px;
     width: 100%;
-    background: url('../images/dublin-image.jpg') no-repeat center center;
+    background: url('../images/dublin-image.jpg') no-repeat;
    
 }
 
