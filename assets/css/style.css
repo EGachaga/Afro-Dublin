@@ -264,9 +264,10 @@ footer {
 .restaurant1{
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
     position: relative;
-    padding: 20px;
+    padding-top: 100px;
 }
 .restaurant1 .card{
     display: flex;
@@ -283,7 +284,13 @@ footer {
 }
 .restaurant1 .card .content{
     padding: 5px;
+    text-align: center;
 }
+.restaurant1 .card .content h3 {
+    color:#000
+}
+
+
 
 /* advertising page */
 .advertise{
