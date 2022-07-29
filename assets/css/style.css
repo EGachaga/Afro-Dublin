@@ -255,13 +255,18 @@ footer {
 }
 
 /* derictory html */
+.directory{
+    height: 100vh;
+    color: #000;
+    background: linear-gradient(135deg, #05073a, #dc0606ca);  
+}
 
 .directory-section {
     width: 100%;
     display: flex;
 }
 
-.restaurant1{
+.restaurants{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,7 +274,7 @@ footer {
     position: relative;
     padding-top: 100px;
 }
-.restaurant1 .card{
+.restaurants .card{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -278,23 +283,26 @@ footer {
     border: 1px solid #ededed;
     box-shadow: 1px 0px 1.5px 0px #1d1d1d;
 }
-.restaurant1 .card .image-box{
+.restaurants .card .image-box{
     display: flex;
     flex-wrap: wrap;
 }
-.restaurant1 .card .content{
+.restaurants .card .content{
     padding: 5px;
     text-align: center;
 }
-.restaurant1 .card .content h3 {
+.restaurants .card .content h3 {
     color:#000
+    font-weight: 500;
 }
-
-
+.restaurants .card .content h2 {
+    font-size: 25px;
+    font-weight: 500;  
+}
 
 /* advertising page */
 .advertise{
-    color: #000;
+    
     display: flex;
     height: 100vh;
     justify-content: center;
