@@ -12,15 +12,16 @@ body {
     font-family: quattrocento+sans, sans-serif;
     font-weight: 300;
     color: #e0e0e2;
+    background-color: #fffbf0;
 }
 
 /* headings and logo */
 header {
     width: 100%;
+    background-color: #e4ddfa;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e4ddfa;
 }
 #logo {
     font-family: quattrocento+sans, sans-serif;
@@ -111,8 +112,8 @@ font-weight: normal;
     flex-wrap: wrap;
 
     width: 360px;
-    height: 215px;
-    bottom: 265px;
+    height: 150px;
+    bottom: 200px;
     margin-top: 25px;
     position: relative;
 }
