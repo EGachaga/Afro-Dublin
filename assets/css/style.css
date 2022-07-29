@@ -210,7 +210,7 @@ hr {
 /* Footer */
 
 footer {
-    height: 115px;
+    height: 100px;
     width: 100%;
     background: linear-gradient(to right, #e4ddf4, #fffbf0);
     color: #fff;
@@ -249,8 +249,8 @@ footer {
 
 #copyright {
     text-align: center;
-    margin-top: 40px;
-    font-size: 13px;
+    margin-top: 30px;
+    font-size: 10px;
     color: #006400;
 }
 
