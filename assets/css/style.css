@@ -256,8 +256,8 @@ footer {
 
 /* derictory html */
 .directory{
-    height: 100vh;
-    color: #000;
+    height: 800px;
+    color: #fff;
     background: linear-gradient(135deg, #05073a, #dc0606ca);  
 }
 
@@ -292,12 +292,14 @@ footer {
     text-align: center;
 }
 .restaurants .card .content h3 {
-    color:#000
-    font-weight: 500;
+    color:#fff;
+    font-size: x-small;
 }
 .restaurants .card .content h2 {
-    font-size: 25px;
-    font-weight: 500;  
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;  
 }
 
 /* advertising page */
