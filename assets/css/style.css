@@ -41,18 +41,15 @@ header {
     font-weight: bold;
     color: #006400;
 }
-
 #menu li {
 float: right;
 margin-right: 30px;
 margin-top: 10px;
 }
-
 #menu a {
     text-decoration: none;
     color: inherit;
 }
-
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -64,7 +61,6 @@ margin-top: 10px;
     overflow: hidden;
     position: relative;
 }
-
 .cover-text1 > h2, .cover-text2 > h2, .cover-text3 > h2{
 color: #fff;
 font-family: lobster, sans-serif;
@@ -72,34 +68,26 @@ font-size: 23px;
 text-align: center;
 font-weight: normal;
 }
-
 .cover-text1 > p, .cover-text2 > p, .cover-text3 > p{
     color: #fff;
     font-size: 13px;
     text-align: center;
     text-transform: none;
 }
-
 #hero-image {
     height: 700px;
     width: 100%;
-    background: url('../images/dublin-image.jpg') no-repeat;
-   
+    background: url('../images/dublin-image.jpg') no-repeat;  
 }
-
 .cover-text1 {
     background-color: #a52a2a;
 }
-
 .cover-text2 {
     background-color: #ffa500;
 }
-
 .cover-text3 { 
     background-color: #006400;
-
 }
-
 .cover-text1, .cover-text2, .cover-text3{
     font-size: 30%;
     font-family:  nunito, sans-serif;
@@ -123,7 +111,6 @@ font-weight: normal;
     flex-wrap: wrap;
     justify-content: center;
     flex: 1;
-    flex-direction: #;
 }
 .cover-text1::after, .cover-text2::after, .cover-text3::after
 {
@@ -137,7 +124,6 @@ font-weight: normal;
     transform: rotate(45deg);
     margin-top: -25px;
 }
-
 .cover-text1::after {
     border-top: 0px solid #a52a2a;
     border-right: 2px solid #a52a2a;
@@ -146,7 +132,6 @@ font-weight: normal;
     background: #a52a2a;
 
 }
-
 .cover-text2::after {
     border-top: 0px solid #ffa500;
     border-right: 2px solid #ffa500;
@@ -154,7 +139,6 @@ font-weight: normal;
     border-left: opx solid #ffa500;
     background: #ffa500;
 }
-
 .cover-text3::after {
     border-top: 0px solid #006400;
     border-right: 2px solid #006400;
@@ -163,17 +147,10 @@ font-weight: normal;
     background: #006400;  
 }
 
-@media (max-width: 750px) {
-    .cover-text {
-        flex-direction: #;
-    }
-}
-
 /* about section */
 #about {
   height: 700px;
   width: 100%;
-
 }
 #about, h2 {
     font-family: lobster, sans-serif;
@@ -192,13 +169,11 @@ font-weight: normal;
     margin: 0 auto;
     padding: 30px 0 0 15px;
 }
-
 hr {
     border-top: 3px solid #eee;
     width: 100%;
     margin: 30px 0;
 }
-
 #about, p {
     color: #00093c;
     font-family:  nunito, sans-serif;
@@ -207,8 +182,7 @@ hr {
     margin: 0 0 1em;
 }
 
-/* Footer */
-
+/* footer */
 footer {
     height: 100px;
     width: 100%;
@@ -217,7 +191,6 @@ footer {
     position: fixed;
     bottom: 0%;
 }
-
 #social-links {
     display: flex;
     gap: 2rem;
@@ -230,7 +203,6 @@ footer {
 #social-links, li {
     flex-shrink: 1;
 }
-
 #bottom-menu {
     display: flex;
     gap: 1rem;
@@ -238,7 +210,6 @@ footer {
     justify-content: center;
     align-items: center;
     color: #006400;
- 
 }
 #bottom-menu, li {
     display: flex;
@@ -246,7 +217,6 @@ footer {
     align-items: center;
     flex-wrap: wrap;
 }
-
 #copyright {
     text-align: center;
     margin-top: 30px;
@@ -256,16 +226,14 @@ footer {
 
 /* derictory html */
 .directory{
-    height: 800px;
+    height: 700px;
     color: #fff;
     background: linear-gradient(135deg, #05073a, #dc0606ca);  
 }
-
 .directory-section {
     width: 100%;
     display: flex;
 }
-
 .restaurants{
     display: flex;
     justify-content: center;
@@ -303,10 +271,9 @@ footer {
 }
 
 /* advertising page */
-.advertise{
-    
+.advertise{ 
     display: flex;
-    height: 100vh;
+    height: 700px;
     justify-content: center;
     align-items: center;
     background: linear-gradient(135deg, #05073a, #dc0606ca);
@@ -369,7 +336,6 @@ form .button{
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100%;
-
 }
 form .button input{
     padding: 10px 0;
@@ -389,3 +355,9 @@ form .button input:hover{
     background: linear-gradient(135deg, #05073a, #dc0606ca);
 }
 
+/* media queries */ 
+
+/* for larger to medium screens */
+@media screen and (max-width: 1200px) {
+
+}
