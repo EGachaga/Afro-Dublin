@@ -1,4 +1,4 @@
-@import url(href="https://fonts.googleapis.com/css2?family=Faster+One&family=Lobster&family=Oswald:wght@300&family=Quattrocento+Sans:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Faster+One&family=Lobster&family=Oswald:wght@300&family=Quattrocento+Sans:wght@700&family=Roboto:wght@100&display=swap");
 
 /* general setting */
 *{
@@ -354,11 +354,3 @@ form .button input{
 form .button input:hover{
     background: linear-gradient(135deg, #05073a, #dc0606ca);
 }
-
-/* media queries */ 
-
-/* for larger to medium screens */
-@media screen and (max-width: 1200px) {
-    .cover-text{
-        width: 65%;
-        flex-direction: column;
