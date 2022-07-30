@@ -17,7 +17,7 @@ body {
 
 /* headings and logo */
 header {
-    width: 100%;
+    max-width: 100%;
     background-color: #e4ddfa;
     display: flex;
     justify-content: space-between;
@@ -56,8 +56,8 @@ margin-top: 10px;
 
 /*  hero image and cover text*/
 #hero-outer{
-    height: 700px;
-    width: 100%;
+    min-height: 700px;
+    max-width: 100%;
     overflow: hidden;
     position: relative;
 }
@@ -75,8 +75,8 @@ font-weight: normal;
     text-transform: none;
 }
 #hero-image {
-    height: 700px;
-    width: 100%;
+    min-height: 700px;
+    max-width: 100%;
     background: url('../images/dublin-image.jpg') no-repeat;  
 }
 .cover-text1 {
@@ -99,8 +99,8 @@ font-weight: normal;
     align-items: center;
     flex-wrap: wrap;
 
-    width: 360px;
-    height: 150px;
+    max-width: 360px;
+    min-height: 150px;
     bottom: 200px;
     margin-top: 25px;
     position: relative;
@@ -115,8 +115,8 @@ font-weight: normal;
 .cover-text1::after, .cover-text2::after, .cover-text3::after
 {
     position: absolute;
-    width: 30px;
-    height: 30px;;
+    max-width: 30px;
+    min-height: 30px;;
     top:100%;
     left: 50%;
     margin-left: -25px;
@@ -149,8 +149,8 @@ font-weight: normal;
 
 /* about section */
 #about {
-  height: 700px;
-  width: 100%;
+  min-height: 700px;
+  max-width: 100%;
 }
 #about, h2 {
     font-family: lobster, sans-serif;
@@ -165,7 +165,7 @@ font-weight: normal;
 }
 #about-heading{
     text-align: center;
-    width: 50%;
+    max-width: 50%;
     margin: 0 auto;
     padding: 30px 0 0 15px;
 }
@@ -184,7 +184,7 @@ hr {
 
 /* footer */
 footer {
-    height: 100px;
+    min-height: 100px;
     width: 100%;
     background: linear-gradient(to right, #e4ddf4, #fffbf0);
     color: #fff;
@@ -273,7 +273,7 @@ footer {
 /* advertising page */
 .advertise{ 
     display: flex;
-    height: 700px;
+    min-height: 700px;
     justify-content: center;
     align-items: center;
     background: linear-gradient(135deg, #05073a, #dc0606ca);
@@ -359,5 +359,6 @@ form .button input:hover{
 
 /* for larger to medium screens */
 @media screen and (max-width: 1200px) {
-
-}
+    .cover-text{
+        width: 65%;
+        flex-direction: column;
