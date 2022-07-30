@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Faster+One&family=Lobster&family=Oswald:wght@300&family=Quattrocento+Sans:wght@700&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Faster+One&family=Lobster&family=Oswald:wght@300&family=Poppins&family=Quattrocento+Sans:wght@700&family=Roboto:wght@100&display=swap");
 
 /* general setting */
 *{
@@ -18,13 +18,14 @@ body {
 /* headings and logo */
 header {
     max-width: 100%;
+    min-height: 40px;
     background-color: #e4ddfa;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 #logo {
-    font-family: quattrocento+sans, sans-serif;
+    font-family: poppins, sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
     color: #006400;
@@ -56,10 +57,12 @@ margin-top: 10px;
 
 /*  hero image and cover text*/
 #hero-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 700px;
     max-width: 100%;
-    overflow: hidden;
-    position: relative;
+    background: url('../images/dublin-image.jpg') no-repeat;  
 }
 .cover-text1 > h2, .cover-text2 > h2, .cover-text3 > h2{
 color: #fff;
@@ -74,11 +77,10 @@ font-weight: normal;
     text-align: center;
     text-transform: none;
 }
-#hero-image {
+/*hero-image {
     min-height: 700px;
-    max-width: 100%;
-    background: url('../images/dublin-image.jpg') no-repeat;  
-}
+    max-width: 100%;  
+} */
 .cover-text1 {
     background-color: #a52a2a;
 }
@@ -101,9 +103,8 @@ font-weight: normal;
 
     max-width: 360px;
     min-height: 150px;
-    bottom: 200px;
-    margin-top: 25px;
-    position: relative;
+    margin-top: 450px;
+    
 }
 .cover-text {
     display: flex;
@@ -111,40 +112,6 @@ font-weight: normal;
     flex-wrap: wrap;
     justify-content: center;
     flex: 1;
-}
-.cover-text1::after, .cover-text2::after, .cover-text3::after
-{
-    position: absolute;
-    width: 30px;
-    height: 30px;;
-    top:100%;
-    left: 50%;
-    margin-left: -25px;
-    content: "";
-    transform: rotate(45deg);
-    margin-top: -25px;
-}
-.cover-text1::after {
-    border-top: 0px solid #a52a2a;
-    border-right: 2px solid #a52a2a;
-    border-bottom: 2px solid #a52a2a;
-    border-left: opx solid #a52a2a;
-    background: #a52a2a;
-
-}
-.cover-text2::after {
-    border-top: 0px solid #ffa500;
-    border-right: 2px solid #ffa500;
-    border-bottom: 2px solid #ffa500;
-    border-left: opx solid #ffa500;
-    background: #ffa500;
-}
-.cover-text3::after {
-    border-top: 0px solid #006400;
-    border-right: 2px solid #006400;
-    border-bottom: 2px solid #006400;
-    border-left: opx solid #006400;
-    background: #006400;  
 }
 
 /* about section */
@@ -188,7 +155,6 @@ footer {
     width: 100%;
     background: linear-gradient(to right, #e4ddf4, #fffbf0);
     color: #fff;
-    position: fixed;
     bottom: 0%;
 }
 #social-links {
@@ -232,6 +198,7 @@ footer {
 }
 .directory-section {
     width: 100%;
+    min-height: 800px;
     display: flex;
 }
 .restaurants{
@@ -273,7 +240,7 @@ footer {
 /* advertising page */
 .advertise{ 
     display: flex;
-    min-height: 700px;
+    min-height: 900px;
     justify-content: center;
     align-items: center;
     background: linear-gradient(135deg, #05073a, #dc0606ca);
@@ -359,13 +326,11 @@ form .button input:hover{
 /* for large to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #hero-outer{
-        width: 65%;
-        height: 1200px;
         margin: 0 auto;
     }
     .cover-text{
         margin: 0;
-        width: 0 auto;
+        padding: 20px;
     }
     .cover-text1, .cover-text2, .cover-text3 {
         width: 100%;

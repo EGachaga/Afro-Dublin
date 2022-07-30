@@ -25,3 +25,7 @@ Below each of them the user finds their respective names, a speciality example '
 # Registration 
 This page will allow users who are businesses to register with us for their business to be listed in the directory page. 
 ![Registration](assets/images/advertise-page.JPG)
+## Features left to implement
+A drop down menu on the directory page to allow users to choose different services. At this stage only service for restuarants is avalaible. 
+# Testing 
+## Validator testing 
