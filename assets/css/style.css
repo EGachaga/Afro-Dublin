@@ -115,8 +115,8 @@ font-weight: normal;
 .cover-text1::after, .cover-text2::after, .cover-text3::after
 {
     position: absolute;
-    max-width: 30px;
-    min-height: 30px;;
+    width: 30px;
+    height: 30px;;
     top:100%;
     left: 50%;
     margin-left: -25px;
@@ -353,4 +353,22 @@ form .button input{
 }
 form .button input:hover{
     background: linear-gradient(135deg, #05073a, #dc0606ca);
+}
+
+/* media queries */
+/* for large to medium screen size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #hero-outer{
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    .cover-text{
+        margin: 0;
+        width: 0 auto;
+    }
+    .cover-text1, .cover-text2, .cover-text3 {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
