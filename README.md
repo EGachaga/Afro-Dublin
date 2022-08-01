@@ -29,3 +29,13 @@ This page will allow users who are businesses to register with us for their busi
 A drop down menu on the directory page to allow users to choose different services. At this stage only service for restuarants is avalaible. 
 # Testing 
 ## Validator testing 
+I run the the project through W3C validator and W3C CSS Validator and the following errors were detected. 
+![HTML](assets/images/html-checker.JPG)
+![CSS](assets/images/css-checker.JPG)
+## Credits
+### Content
+The idea to link to lines of code within GitHub commits came from:
+ Love Running Project 
+ Youtube videos 
+ https://www.youtube.com/watch?v=u044iM9xsWU&t=257s
+ https://www.youtube.com/watch?v=fiwTglbcPuk
